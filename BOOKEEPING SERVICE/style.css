@@ -1,0 +1,68 @@
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/* Style the header */
+#header {
+  background-color: DodgerBlue;
+  padding: 5px;
+  text-align: left;
+  font-size: 6px;
+  color: white;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+}
+
+#h1{ background-image: url('background1.JPG');
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center; 
+  color:white;
+  font-size:19px;
+Padding: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container .box {
+  background-color: #C0C0C0;
+  width: 25%;
+  margin: 2px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  
+}
+
+
+</style>
